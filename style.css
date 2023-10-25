@@ -1,0 +1,110 @@
+
+.logo{
+    width: 8%;
+    margin: 0% 3px ;
+}
+
+body{
+
+background-image: url(./img/fondo.png);
+
+    width: 100%;
+
+}
+
+
+.arribaLogo {
+  margin: 10px 20px 4px;
+  width: 70px;
+  height: 12px;
+  background:
+    radial-gradient(farthest-side,#c070f9 90%,#da252500) 25% 0,
+    radial-gradient(farthest-side,#bb01bb 90%,#eee8e800) 75% 0;
+  background-size:12px 12px;
+  background-repeat: no-repeat;
+  position: relative;
+  animation: d4-0 2s linear infinite;
+}
+
+.arribaLogo:before {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background:#62038ea2;
+  inset:0;
+  margin:auto;
+  animation: d4-1 2s cubic-bezier(0.5,300,0.5,-300) infinite;
+}
+
+@keyframes d4-0 {
+  0%,24%  {background-position: 25% 0,75% 0}
+  40%     {background-position: 25% 0,85% 0}
+  50%,72% {background-position: 25% 0,75% 0}
+  90%     {background-position: 15% 0,75% 0}
+  100%    {background-position: 25% 0,75% 0}
+}
+
+@keyframes d4-1 {
+  100% {transform:translate(0.1px)}
+}
+
+   
+.titulo{
+    color: #725483;
+    text-align: center;
+    padding: 30px;
+    margin: 0% 5% 0%; 
+    text-overflow: clip;
+    background : #cbc1bc;
+    border-radius: 12px;
+    font-weight:900;
+    font-style:oblique;
+    justify-content:right;
+    text-decoration:solid;
+
+    
+     
+ 
+  }
+
+  .titulo2{
+    color: #cbc1bcce;
+    text-align: center;
+    text-decoration:overline;
+    font-style: italic;
+  
+  }
+  
+   
+  
+.fotodos{
+  width: 18%;
+  padding: 20px ;
+  border-radius: 20%;
+
+}
+
+.fototres{
+  width: 18%;
+  padding: 20px;
+  border-radius: 20%; 
+}
+
+.fotocuatro{
+
+  width: 24%;
+  padding: 14px ;
+  border-radius: 21%; 
+}
+
+.fotocinco{
+
+  width: 19%;
+  padding: 14px 15px 15px 14px ;
+   border-radius: 20%; 
+}
+
+
+
